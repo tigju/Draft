@@ -1,0 +1,155 @@
+body, div, dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,
+fieldset,input,textarea,p,blockquote,th,td {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: arial,helvetica;
+}
+#section0 {
+	background-image: url("../img/imagee.png");
+	background-size: cover;
+}
+.section h1 {
+	font-size: 3em;
+
+	margin-left: 500px;
+}
+
+#menu {
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	z-index: 9;
+}
+#menu li a {
+    text-decoration: none;
+  	color: black;
+  	font-weight: bolder; 
+}
+#menu li.active a {
+	color: #fff;
+}
+#menu li a, #myMenu li.active a {
+	padding: 9px 18px;
+	display: block;
+}
+#menu li:hover {
+  	background: rgba(255,255,255, 0.8);
+}
+#menu li.active {
+	color: #fff;
+	background: #666;
+  	background: rgba(0,0,0, 0.7);
+}
+#menu li {
+	background: rgba(255,255,255, 0.5);
+	display: inline-block;
+	margin: 10px;
+	border-radius: 10px;
+	color: black;
+}
+#menu li.active a:hover {
+	color: #000;
+	background: rgba(255,255,255, 0.8);
+	border-radius: 10px;
+}
+
+#section0 #img1, #img2, #img3{
+	left: -50px;
+	width: 350px;
+	height: 520px;
+	position: relative;
+	z-index: 100;
+	float: left;
+	margin-left: 150px;
+	margin-top: -95px;
+}
+#section2 #img4, #img5 {
+	float: left;
+	position: relative;
+	width: 500px;
+	height: 463px;
+	margin-top: -95px;
+}
+
+.ingredients {
+	display: list-item;
+	position: relative;
+	font-size: 20px !important;
+}
+.ingredients:before {  
+    margin-left: -1em; 
+    margin-right: .100em;
+    
+ }
+ ul {
+   padding-left: 20px;
+   text-indent: 2px;
+   list-style: none;
+   list-style-position: outside;
+   list-style-type: disc;
+}
+ .prep {
+	margin-right: 400px;
+	font-size: 20px;
+}
+
+#slide4 {
+	background-image: url("https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg2.jpg");
+	padding: 6% 0 0 0;
+	background-size: contain;
+	position: relative;
+	
+}
+#slide5 {
+	background-image: url("http://www.zastavki.com/pictures/originals/2014/World___Italy_Blue_Lagoon_on_the_island_of_Sicily__Italy_065111_.jpg");
+	padding: 6% 0 0 0;
+	background-size: contain;
+	position: relative;
+	
+}
+#slide6 {
+	background-image: url("http://stowawaymag.com/files/2011/04/Ecuador-santa-ana-hill1.jpg");
+	padding: 6% 0 0 0;
+	background-size: contain;
+	position: relative;
+	
+}
+#slide7 {
+	background-image: url("http://www.zastavki.com/pictures/originals/2015/_Swallow_s_Nest_in_Crimea_094837_.jpg");
+	padding: 6% 0 0 0;
+	background-size: contain;
+	position: relative;
+}
+#slide8 {
+	background-image: url("http://visittoukraine.com/uploads/images/news/donbass_arena.jpg");
+	padding: 6% 0 0 0;
+	background-size: contain;
+	position: relative;
+}
+#slide9 {
+	background-image: url("http://img.allw.mn/content/travel/2012/07/45.jpg");
+	padding: 6% 0 0 0;
+	background-size: contain;
+	position: relative;
+}
+#slide10 {
+	background-image: url("http://www.desktopaper.com/wp-content/uploads/fantastic-alaska-spring.jpg");
+	padding: 6% 0 0 0;
+	background-size: contain;
+	position: relative;
+}
+.slide {
+	
+}
+.name {
+	display: inline;
+	position: absolute;
+	margin-top: -2em;
+
+}
