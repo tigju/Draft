@@ -19,27 +19,27 @@ $(document).ready(function(){
 
                 //first slide of the first section
                 if(anchorLink == 'firstPage' && slideIndex == 0) {
-                    loadedSlide.find(".name").animate({"fontSize":"40px"}, 2500);
+                    loadedSlide.find(".name").animate({"fontSize":"40px"}, 500);
                 }
                 //second slide of the first section
                 if(anchorLink == 'firstPage' && slideIndex == 1) {
-                  loadedSlide.find(".name").animate({"fontSize":"40px"}, 2500);
+                  loadedSlide.find(".name").animate({"fontSize":"40px"}, 500);
                 }
                 //third slide of the first section
                 if(anchorLink == 'firstPage' && slideIndex == 2) {
-                  loadedSlide.find(".name").animate({"fontSize":"40px"}, 2500);
+                  loadedSlide.find(".name").animate({"fontSize":"40px"}, 500);
                 }
 
                 if(anchorLink == "3rdPage" && slideIndex == 0) {
-                    loadedSlide.find(".name").animate({"fontSize":"40px"}, 2500);
+                    loadedSlide.find(".name").animate({"fontSize":"40px"}, 500);
                 }
 
                 if(anchorLink == "3rdPage" && slideIndex == 1) {
-                    loadedSlide.find(".name").animate({"fontSize":"40px"}, 2500);
+                    loadedSlide.find(".name").animate({"fontSize":"40px"}, 500);
                 }
 
                 if(anchorLink == "3rdPage" && slideIndex == 2) {
-                    loadedSlide.find(".name").animate({"fontSize":"40px"}, 2500);
+                    loadedSlide.find(".name").animate({"fontSize":"40px"}, 500);
                 }
                 
             },
@@ -48,7 +48,7 @@ $(document).ready(function(){
                 var loadedSection = $(this);
                 //section1
                 if(index == 1) {
-                        $(".name").animate({"fontSize":"40px"}, 2500);
+                        $(".name").animate({"fontSize":"40px"}, 500);
                 }
 
                 //section2
@@ -58,7 +58,7 @@ $(document).ready(function(){
 
                 //section3
                 if(index == 3) {
-                        $(".name").animate({"fontSize":"40px"}, 2500);
+                        $(".name").animate({"fontSize":"40px"}, 500);
                 }
             },
     
